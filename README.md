@@ -10,23 +10,23 @@ This repo contains specialized prompts (skills) that teach AI coding agents how 
 
 | Skill | Description |
 |-------|-------------|
-| `mitmfindidor` | Find Insecure Direct Object Reference vulnerabilities |
-| `mitmfindauth` | Detect authentication and authorization issues |
-| `mitmfindbizlogic` | Identify business logic flaws |
-| `mitmfindssrf` | Find Server-Side Request Forgery vulnerabilities |
-| `mitmfindsqli` | Detect SQL injection patterns |
-| `mitmfindotp` | Find OTP/2FA bypass vulnerabilities |
-| `mitmfindpii` | Identify PII exposure issues |
-| `mitmfindsecrets` | Detect leaked secrets and API keys |
-| `mitmfindcallback` | Find callback/webhook security issues |
-| `mitmfindchecksum` | Identify checksum/integrity bypass opportunities |
-| `mitmfindenumerable` | Find enumerable endpoints and IDs |
-| `mitmfindinsecure` | Detect insecure configurations |
-| `mitmfindreferer` | Find referer-based vulnerabilities |
-| `mitmlistapis` | List and analyze captured API endpoints |
-| `mitmsubdomains` | Analyze subdomain patterns |
-| `mitmsecurityaudit` | Run comprehensive security audit |
-| `mitmreport` | Generate security report |
+| `mitm-find-idor` | Find Insecure Direct Object Reference vulnerabilities |
+| `mitm-find-auth` | Detect authentication and authorization issues |
+| `mitm-find-bizlogic` | Identify business logic flaws |
+| `mitm-find-ssrf` | Find Server-Side Request Forgery vulnerabilities |
+| `mitm-find-sqli` | Detect SQL injection patterns |
+| `mitm-find-otp` | Find OTP/2FA bypass vulnerabilities |
+| `mitm-find-pii` | Identify PII exposure issues |
+| `mitm-find-secrets` | Detect leaked secrets and API keys |
+| `mitm-find-callback` | Find callback/webhook security issues |
+| `mitm-find-checksum` | Identify checksum/integrity bypass opportunities |
+| `mitm-find-enumerable` | Find enumerable endpoints and IDs |
+| `mitm-find-insecure` | Detect insecure configurations |
+| `mitm-find-referer` | Find referer-based vulnerabilities |
+| `mitm-list-apis` | List and analyze captured API endpoints |
+| `mitm-subdomains` | Analyze subdomain patterns |
+| `mitm-security-audit` | Run comprehensive security audit |
+| `mitm-report` | Generate security report |
 
 ## Setup
 
