@@ -7,6 +7,11 @@ description: Enumerate subdomains from captured traffic. Use when user asks abou
 
 Analyze the mitmproxy dump (log.txt) and enumerate subdomains for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Tasks
 
 ### 1. Extract Seen Subdomains

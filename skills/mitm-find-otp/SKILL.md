@@ -7,6 +7,11 @@ description: Find OTP implementation vulnerabilities. Use when user asks about O
 
 Analyze the mitmproxy dump (log.txt) for OTP issues for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Vulnerability Types
 
 ### 1. OTP in Response

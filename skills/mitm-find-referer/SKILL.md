@@ -7,6 +7,11 @@ description: Find Referer header leakage vulnerabilities. Use when user asks abo
 
 Analyze the mitmproxy dump (log.txt) for Referer leakage for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## What to Look For
 
 ### 1. Sensitive Data in URLs

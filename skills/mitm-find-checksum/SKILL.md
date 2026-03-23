@@ -7,6 +7,11 @@ description: Find checksum and signature vulnerabilities. Use when user asks abo
 
 Analyze the mitmproxy dump (log.txt) for checksum issues for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Vulnerability Types
 
 ### 1. Checksum Generation Exposed

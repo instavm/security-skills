@@ -7,6 +7,11 @@ description: Find authentication and session vulnerabilities. Use when user asks
 
 Analyze the mitmproxy dump (log.txt) for auth issues for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## High-Value Auth Patterns (from 783 real HackerOne bounty reports)
 
 ### 1. Password Reset Token Issues

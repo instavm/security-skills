@@ -7,6 +7,11 @@ description: Find leaked secrets, API keys, and credentials in traffic. Use when
 
 Analyze the mitmproxy dump (log.txt) for exposed secrets for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Secret Types to Find
 
 ### 1. API Keys & Tokens

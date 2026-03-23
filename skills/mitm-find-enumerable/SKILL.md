@@ -7,6 +7,11 @@ description: Find enumerable endpoints that leak data through iteration. Use whe
 
 Analyze the mitmproxy dump (log.txt) for enumerable endpoints for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## What Makes an Endpoint Enumerable
 
 ### 1. Sequential IDs

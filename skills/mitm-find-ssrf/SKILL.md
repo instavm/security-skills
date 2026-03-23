@@ -7,6 +7,11 @@ description: Find SSRF (Server-Side Request Forgery) vulnerabilities in captured
 
 Analyze the mitmproxy dump (log.txt) for SSRF vulnerabilities for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## High-Value SSRF Patterns (from 113 real HackerOne bounty reports)
 
 ### 1. URL Parameters in Requests

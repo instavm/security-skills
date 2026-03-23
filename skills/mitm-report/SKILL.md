@@ -7,6 +7,11 @@ description: Generate a security vulnerability report. Use when user asks for a 
 
 Generate a security report based on findings. Format: $ARGUMENTS (default: markdown)
 
+> **Requires**: `log.txt` in the current directory (or findings from a previous skill run). If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Report Template
 
 ```markdown

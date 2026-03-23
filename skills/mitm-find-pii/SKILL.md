@@ -7,6 +7,11 @@ description: Find PII (Personally Identifiable Information) leakage in API respo
 
 Analyze the mitmproxy dump (log.txt) for PII exposure for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## PII Categories to Check
 
 ### 1. Contact Information

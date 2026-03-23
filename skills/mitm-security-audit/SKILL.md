@@ -7,6 +7,11 @@ description: Comprehensive security audit of mitmproxy traffic. Use when user wa
 
 Perform a comprehensive security audit of the mitmproxy dump (log.txt) for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Audit Checklist
 
 Run these checks systematically:

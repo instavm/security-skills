@@ -7,6 +7,11 @@ description: List all APIs from mitmproxy traffic capture. Use when user asks to
 
 Analyze the mitmproxy dump (log.txt) and list all APIs for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Instructions
 
 1. Search log.txt for the target domain/app

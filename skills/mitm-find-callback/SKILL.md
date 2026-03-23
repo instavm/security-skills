@@ -7,6 +7,11 @@ description: Find payment callback and webhook vulnerabilities. Use when user as
 
 Analyze the mitmproxy dump (log.txt) for payment callback issues for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Vulnerability Types
 
 ### 1. Hash/Signature Not Validated

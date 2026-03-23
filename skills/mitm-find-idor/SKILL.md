@@ -7,6 +7,11 @@ description: Find IDOR (Insecure Direct Object Reference) vulnerabilities in cap
 
 Analyze the mitmproxy dump (log.txt) for IDOR vulnerabilities for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## High-Value IDOR Patterns (from 132 real HackerOne bounty reports)
 
 ### 1. User/Account Object References

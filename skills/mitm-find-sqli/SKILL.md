@@ -7,6 +7,11 @@ description: Find SQL Injection vulnerabilities in captured traffic. Use when us
 
 Analyze the mitmproxy dump (log.txt) for SQL injection vulnerabilities for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## High-Value SQLi Patterns (from 99 real HackerOne bounty reports)
 
 ### 1. Common Vulnerable Parameters

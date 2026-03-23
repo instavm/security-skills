@@ -7,6 +7,11 @@ description: Find insecure configurations in HTTP traffic. Use when user asks ab
 
 Analyze the mitmproxy dump (log.txt) for insecure configs for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## Security Checks
 
 ### 1. HTTP Instead of HTTPS

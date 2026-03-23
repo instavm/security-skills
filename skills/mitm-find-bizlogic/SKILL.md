@@ -7,6 +7,11 @@ description: Find Business Logic vulnerabilities in captured traffic. Use when u
 
 Analyze the mitmproxy dump (log.txt) for business logic flaws for: $ARGUMENTS
 
+> **Requires**: `log.txt` in the current directory. If it's missing, capture traffic first:
+> ```bash
+> mitmdump --set flow_detail=3 2>&1 | tee log.txt
+> ```
+
 ## High-Value Business Logic Patterns (from 376 real HackerOne bounty reports)
 
 ### 1. Payment/Pricing Manipulation
