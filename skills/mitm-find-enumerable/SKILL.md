@@ -1,4 +1,5 @@
 ---
+name: mitm-find-enumerable
 description: Find enumerable endpoints that leak data through iteration. Use when user asks about data scraping, bulk data access, or iterating through records.
 ---
 

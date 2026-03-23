@@ -1,4 +1,5 @@
 ---
+name: mitm-list-apis
 description: List all APIs from mitmproxy traffic capture. Use when user asks to see APIs, endpoints, or wants an overview of captured HTTP traffic for a website or app.
 ---
 

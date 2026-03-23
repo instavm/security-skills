@@ -1,4 +1,5 @@
 ---
+name: mitm-find-insecure
 description: Find insecure configurations in HTTP traffic. Use when user asks about security headers, cookie security, CORS issues, or transport security.
 ---
 

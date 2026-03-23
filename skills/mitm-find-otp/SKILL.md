@@ -1,4 +1,5 @@
 ---
+name: mitm-find-otp
 description: Find OTP implementation vulnerabilities. Use when user asks about OTP security, verification bypass, SMS security, or two-factor authentication issues.
 ---
 

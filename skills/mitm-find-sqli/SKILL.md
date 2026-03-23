@@ -1,4 +1,5 @@
 ---
+name: mitm-find-sqli
 description: Find SQL Injection vulnerabilities in captured traffic. Use when user asks about database security, injection attacks, or data extraction.
 ---
 
@@ -239,9 +240,7 @@ UN/**/ION/**/SE/**/LECT
 [Request with payload and response showing vulnerability]
 
 **Payload Used**:
-```
 ' OR '1'='1
-```
 
 **Impact**:
 - Database dump possible

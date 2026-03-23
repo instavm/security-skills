@@ -1,4 +1,5 @@
 ---
+name: mitm-find-callback
 description: Find payment callback and webhook vulnerabilities. Use when user asks about payment security, callback tampering, hash validation, or transaction manipulation.
 ---
 

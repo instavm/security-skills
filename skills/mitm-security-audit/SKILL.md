@@ -1,4 +1,5 @@
 ---
+name: mitm-security-audit
 description: Comprehensive security audit of mitmproxy traffic. Use when user wants to analyze captured HTTP traffic for vulnerabilities, or mentions pentesting, security testing, or vulnerability assessment.
 ---
 

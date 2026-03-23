@@ -1,4 +1,5 @@
 ---
+name: mitm-find-secrets
 description: Find leaked secrets, API keys, and credentials in traffic. Use when user asks about exposed keys, hardcoded secrets, or credential leakage.
 ---
 

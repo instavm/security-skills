@@ -1,4 +1,5 @@
 ---
+name: mitm-find-idor
 description: Find IDOR (Insecure Direct Object Reference) vulnerabilities in captured traffic. Use when user asks about authorization issues, sequential IDs, or accessing other users' data.
 ---
 

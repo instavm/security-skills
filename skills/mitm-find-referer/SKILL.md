@@ -1,4 +1,5 @@
 ---
+name: mitm-find-referer
 description: Find Referer header leakage vulnerabilities. Use when user asks about URL leakage, third-party data exposure, or sensitive data in headers.
 ---
 

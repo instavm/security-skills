@@ -1,4 +1,5 @@
 ---
+name: mitm-find-pii
 description: Find PII (Personally Identifiable Information) leakage in API responses. Use when user asks about data exposure, privacy issues, or sensitive data in traffic.
 ---
 

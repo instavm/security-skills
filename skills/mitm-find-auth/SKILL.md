@@ -1,4 +1,5 @@
 ---
+name: mitm-find-auth
 description: Find authentication and session vulnerabilities. Use when user asks about auth bypass, session issues, login security, or token problems.
 ---
 

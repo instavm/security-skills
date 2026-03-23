@@ -30,13 +30,16 @@ This repo contains specialized prompts (skills) that teach AI coding agents how 
 
 ## Setup
 
-### For Claude Code
-
-Copy skills to your project's `.claude/skills/` directory:
+### Install with skills.sh (recommended)
 
 ```bash
-mkdir -p .claude/skills
-cp *.md .claude/skills/
+npx skills add instavm/security-skills
+```
+
+Or install specific skills only:
+
+```bash
+npx skills add instavm/security-skills --skill mitm-find-idor
 ```
 
 ### For Gemini CLI
@@ -45,7 +48,7 @@ Copy as commands to `.gemini/commands/`:
 
 ```bash
 mkdir -p .gemini/commands
-cp *.md .gemini/commands/
+for d in skills/*/; do cp "$d/SKILL.md" ".gemini/commands/$(basename $d).md"; done
 ```
 
 ## Usage

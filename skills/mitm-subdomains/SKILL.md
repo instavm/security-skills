@@ -1,4 +1,5 @@
 ---
+name: mitm-subdomains
 description: Enumerate subdomains from captured traffic. Use when user asks about subdomain discovery, attack surface mapping, or domain reconnaissance.
 ---
 

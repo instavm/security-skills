@@ -1,4 +1,5 @@
 ---
+name: mitm-find-checksum
 description: Find checksum and signature vulnerabilities. Use when user asks about hash validation, signature bypass, checksum manipulation, or cryptographic weaknesses.
 ---
 

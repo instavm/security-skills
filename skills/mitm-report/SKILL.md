@@ -1,4 +1,5 @@
 ---
+name: mitm-report
 description: Generate a security vulnerability report. Use when user asks for a report, summary of findings, or formatted vulnerability documentation.
 ---
 

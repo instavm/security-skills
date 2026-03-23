@@ -1,4 +1,5 @@
 ---
+name: mitm-find-ssrf
 description: Find SSRF (Server-Side Request Forgery) vulnerabilities in captured traffic. Use when user asks about URL fetching, webhooks, integrations, or internal network access.
 ---
 
