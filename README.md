@@ -42,14 +42,6 @@ Or install specific skills only:
 npx skills add instavm/security-skills --skill mitm-find-idor
 ```
 
-### For Gemini CLI
-
-Copy as commands to `.gemini/commands/`:
-
-```bash
-mkdir -p .gemini/commands
-for d in skills/*/; do cp "$d/SKILL.md" ".gemini/commands/$(basename $d).md"; done
-```
 
 ## Usage
 
